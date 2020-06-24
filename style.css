@@ -1,0 +1,118 @@
+#banner
+{
+ display: block;
+ margin-left: auto;
+ margin-right: auto;
+ width: 70%;	
+}
+
+#submitButton
+{
+  background-color: blue; 
+  border: 8px;
+  color: white;
+  padding: 10px 10px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  transition-duration: 0.4s;
+  cursor: pointer;
+}
+
+#submitButton:hover
+{
+  background-color: cyan;
+  color: black;
+}
+
+#resetButton
+{
+  background-color: blue; 
+  border: 8px;
+  color: white;
+  padding: 10px 10px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  transition-duration: 0.4s;
+  cursor: pointer;
+}
+
+#resetButton:hover
+{
+  background-color: cyan;
+  color: black;
+}
+
+img 
+{
+ width: 100%;
+ height: auto;
+}
+
+.incidentTable 
+{
+	border-collapse: collapse;
+}
+
+.incidentTable td
+{ 
+	border: 1px solid;
+	
+}
+
+table
+{
+	border: 1px solid;
+	border: none;
+}
+
+td
+{
+	border: none;
+}
+
+.topnav
+{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: blue;
+}
+
+.topnav a { 
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 18px;
+}
+
+.topnav a:hover {
+  background-color: cyan;
+  color: black;
+}
+
+body{
+	background-color: #56d4cf;
+	color: black;
+}
+
+#junweiCaller{
+	text-transform: capitalize;
+}
+
+#incidentDesc
+{
+	resize: none;
+}
+
+/* Add a color to the active/current link */
+.topnav a.active {
+  background-color: cyan;
+  color: black;
+}
